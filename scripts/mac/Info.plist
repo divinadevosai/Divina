@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleName</key>
+  <string>Divina</string>
+  <key>CFBundleDisplayName</key>
+  <string>Divina</string>
+  <key>CFBundleIdentifier</key>
+  <string>co.sweeneycreative.divina.mac</string>
+  <key>CFBundleExecutable</key>
+  <string>Divina</string>
+  <key>CFBundleIconFile</key>
+  <string>Divina</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>__VERSION__</string>
+  <key>CFBundleVersion</key>
+  <string>__VERSION__</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>11.0</string>
+  <key>LSApplicationCategoryType</key>
+  <string>public.app-category.productivity</string>
+  <!-- Divina's window is a browser app window; this starter has no window or Dock icon of its own -->
+  <key>LSUIElement</key>
+  <true/>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSAppleEventsUsageDescription</key>
+  <string>Divina opens apps, plays music and changes the volume when you ask it to.</string>
+  <key>NSHumanReadableCopyright</key>
+  <string>© 2026 Sweeney Creative</string>
+</dict>
+</plist>

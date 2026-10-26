@@ -1,0 +1,7 @@
+{
+  "//": "Dormant. Empty means the normal free build (Divina is AGPL-3.0). Only a build made for sale fills in a Lemon Squeezy store and product id, which makes it ask for a licence key. These ids aren't secrets.",
+  "lemonSqueezy": {
+    "storeId": "",
+    "productIds": []
+  }
+}

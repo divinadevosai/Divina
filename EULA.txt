@@ -1,0 +1,62 @@
+DIVINA — LICENCE AND TERMS OF USE
+Last updated: 26 October 2026
+
+Divina is free, open-source software. It is licensed to everyone under the
+GNU Affero General Public License, version 3 or later (the "AGPL"). The full
+text is in the LICENSE file that comes with Divina and at
+https://www.gnu.org/licenses/agpl-3.0.html. This document is a plain-language
+summary and a few extra terms; where anything here and the AGPL disagree, the
+AGPL wins.
+
+1. WHAT YOU MAY DO
+You may use Divina for any purpose, study how it works, change it, and share
+it, free of charge, under the AGPL. There is no licence key, no activation,
+and no limit on how many computers you install it on.
+
+2. IF YOU RUN A CHANGED VERSION FOR OTHERS
+The AGPL has one main condition. If you run a modified version of Divina as a
+service that other people use over a network, you must offer those people the
+complete source code of your version, under the AGPL. If you only use Divina
+yourself, or share it unchanged, there is nothing extra to do.
+
+3. NAME AND LOGOS
+The licence covers the code. It does not give you the right to use the names
+"Divina", "swe3we" or "Sweeney Creative", or their logos, in a way that
+suggests we made or endorse your version. If you publish a changed version,
+give it your own name and branding.
+
+4. YOUR ACCOUNTS AND KEYS
+Divina's AI features and some cards use services run by other companies (for
+example Google Gemini, Anthropic Claude, OpenAI, ElevenLabs, CoinGecko,
+Instagram, Twilio), with accounts and keys you provide yourself. Their terms
+apply between you and them, you are responsible for any charges they make,
+and we aren't responsible for those services. Divina keeps your keys
+encrypted on your own computer and sends each one only to its own company.
+
+5. AI AND ACCURACY
+Divina is for adults (18 and over). Its replies come from the AI service you
+choose and can be wrong, incomplete or out of date; don't rely on them for
+medical, legal, financial or safety decisions. Prices, scores and other live
+information may be delayed or wrong and are never financial advice.
+
+6. NO WARRANTY, AND OUR RESPONSIBILITY
+As the AGPL states, Divina is provided "as is", without warranty of any kind,
+to the extent the law allows. If you are a consumer you keep the legal rights
+you have where you live (in the UK, under the Consumer Rights Act 2015), and
+nothing here affects those. Beyond them, and as far as the law allows, we are
+not responsible for losses that weren't foreseeable, for business losses, or
+for anything caused by the services in section 4. Nothing here limits
+responsibility for death or personal injury caused by negligence, for fraud,
+or for anything else the law doesn't allow to be limited.
+
+7. LAW
+These extra terms are governed by the law of England and Wales. If you are a
+consumer living elsewhere, you keep the protection of the mandatory laws of
+your country, and you may bring a claim in your local courts.
+
+8. CONTACT
+Sweeney Creative · dev@divinaos.site · https://divinaos.site
+Source code: https://github.com/divinadevosai/divina
+
+Divina is built with open-source components used under their own licences;
+see THIRD_PARTY_NOTICES.md and THIRD_PARTY_LICENSES.txt.

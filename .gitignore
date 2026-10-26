@@ -1,0 +1,33 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+.env
+public/mediapipe/wasm
+public/models/*.task
+test-results
+screenshots/
+divina.zip
+divina-*.zip
+data/settings.local.json
+build/
+dist/
+site.zip
+out/
+
+# Apple signing files: never in the code
+*.p8
+*.p12
+*.pfx
+*.cer
+*.csr
+*.key
+*.pem
+*.mobileprovision
+*.ipa
+
+
+# promo media lives with the website, not here
+docs/promo/

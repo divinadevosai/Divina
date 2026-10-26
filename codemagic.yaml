@@ -1,0 +1,81 @@
+# Builds the iPhone app on a cloud Mac (Codemagic) and uploads it to App Store
+# Connect, where it appears in TestFlight. Step-by-step setup: docs/APP-STORE.md.
+#
+# Needs, set up once in Codemagic (never in this file):
+#   - an App Store Connect API key, added under Team settings → Integrations
+#     with the name "Divina App Store key"
+#   - APP_STORE_APPLE_ID: the app's Apple ID number (App Store Connect → the app
+#     → App Information), in an environment group called "divina"
+workflows:
+  ios-release:
+    name: Divina for iPhone
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    integrations:
+      app_store_connect: Divina App Store key
+    environment:
+      groups:
+        - divina
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: co.sweeneycreative.divina
+      node: 22
+      xcode: latest
+    scripts:
+      - name: Install
+        script: npm ci
+      - name: Build Divina for iPhone
+        script: npm run build:ios
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Number this build
+        script: |
+          LATEST=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" || echo 0)
+          cd ios/App && agvtool new-version -all $((LATEST + 1))
+      - name: Build the app
+        script: xcode-project build-ipa --project "ios/App/App.xcodeproj" --scheme "App"
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+
+  # Divina for Mac: builds both Mac apps (Apple Silicon and Intel), signs them
+  # with your Developer ID, has Apple notarize them, and makes the .dmg files to
+  # sell. Step-by-step setup: docs/RELEASE.md.
+  #
+  # Needs an environment group called "divina-mac" (never in this file) with:
+  #   MAC_CERT_P12        your "Developer ID Application" certificate (.p12), base64
+  #   MAC_CERT_PASSWORD   its password
+  #   NOTARY_KEY          an App Store Connect API key (.p8 file contents)
+  #   NOTARY_KEY_ID       that key's id
+  #   NOTARY_ISSUER       its issuer id
+  mac-release:
+    name: Divina for Mac
+    instance_type: mac_mini_m2
+    max_build_duration: 90
+    environment:
+      groups:
+        - divina-mac
+      node: 22
+      xcode: latest
+    scripts:
+      - name: Install
+        script: npm ci
+      - name: Build Divina for Mac
+        script: DIVINA_FOR_SALE=1 npm run build:mac
+      - name: Load the Developer ID certificate
+        script: |
+          keychain initialize
+          echo "$MAC_CERT_P12" | base64 --decode > /tmp/divina-cert.p12
+          keychain add-certificates --certificate /tmp/divina-cert.p12 --certificate-password "$MAC_CERT_PASSWORD"
+          rm -f /tmp/divina-cert.p12
+          echo "MAC_SIGN_ID=$(security find-identity -v -p codesigning | grep 'Developer ID Application' | head -1 | sed -E 's/.*"(.*)"/\1/')" >> "$CM_ENV"
+      - name: Sign, notarize and package
+        script: |
+          printf '%s' "$NOTARY_KEY" > /tmp/notary.p8
+          NOTARY_KEY_PATH=/tmp/notary.p8 ./scripts/mac/sign-and-package.sh
+          rm -f /tmp/notary.p8
+    artifacts:
+      - dist/*.dmg

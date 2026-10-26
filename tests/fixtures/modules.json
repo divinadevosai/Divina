@@ -1,0 +1,1568 @@
+{
+  "stocks": {
+    "status": "ok",
+    "data": {
+      "example": true,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVDA",
+          "shares": 40,
+          "cost": 96.4,
+          "sector": "Semiconductors",
+          "price": 178.2,
+          "prevClose": 176.1,
+          "currency": "USD",
+          "history": [
+            164.88,
+            166.32,
+            166.12,
+            168.17,
+            167.74,
+            164.33,
+            164.42,
+            166.18,
+            165.71,
+            167.67,
+            172.0,
+            172.31,
+            171.09,
+            172.19,
+            171.03,
+            168.13,
+            169.62,
+            172.38,
+            172.58,
+            174.83,
+            178.23,
+            177.02,
+            176.1,
+            178.2
+          ],
+          "changePct": 1.1925042589437786,
+          "value": 7128.0,
+          "pnl": 3272.0,
+          "pnlPct": 84.85477178423237
+        },
+        {
+          "symbol": "AAPL",
+          "name": "AAPL",
+          "shares": 25,
+          "cost": 171.2,
+          "sector": "Hardware",
+          "price": 231.5,
+          "prevClose": 232.9,
+          "currency": "USD",
+          "history": [
+            218.28,
+            219.95,
+            219.76,
+            221.24,
+            218.6,
+            214.93,
+            218.46,
+            223.35,
+            223.88,
+            225.42,
+            226.43,
+            221.99,
+            220.0,
+            224.67,
+            227.62,
+            228.42,
+            231.45,
+            230.73,
+            225.59,
+            225.86,
+            230.2,
+            231.56,
+            232.9,
+            231.5
+          ],
+          "changePct": -0.6011163589523425,
+          "value": 5787.5,
+          "pnl": 1507.5,
+          "pnlPct": 35.22196261682243
+        },
+        {
+          "symbol": "MSFT",
+          "name": "MSFT",
+          "shares": 12,
+          "cost": 338.0,
+          "sector": "Software",
+          "price": 508.3,
+          "prevClose": 504.0,
+          "currency": "USD",
+          "history": [
+            472.5,
+            475.71,
+            474.75,
+            474.83,
+            468.25,
+            467.75,
+            482.58,
+            489.6,
+            480.85,
+            477.16,
+            480.16,
+            481.67,
+            490.13,
+            498.75,
+            490.38,
+            481.03,
+            488.94,
+            498.17,
+            499.66,
+            502.39,
+            499.53,
+            490.6,
+            504.0,
+            508.3
+          ],
+          "changePct": 0.8531746031746054,
+          "value": 6099.6,
+          "pnl": 2043.6000000000004,
+          "pnlPct": 50.384615384615394
+        },
+        {
+          "symbol": "ASML",
+          "name": "ASML",
+          "shares": 6,
+          "cost": 702.5,
+          "sector": "Semiconductors",
+          "price": 781.0,
+          "prevClose": 770.2,
+          "currency": "USD",
+          "history": [
+            721.75,
+            726.28,
+            723.08,
+            720.14,
+            715.61,
+            726.67,
+            745.48,
+            736.59,
+            718.26,
+            731.46,
+            752.25,
+            747.7,
+            738.71,
+            740.52,
+            744.71,
+            756.33,
+            765.26,
+            750.89,
+            741.37,
+            763.48,
+            778.66,
+            763.98,
+            770.2,
+            781.0
+          ],
+          "changePct": 1.4022331861854003,
+          "value": 4686.0,
+          "pnl": 471.0,
+          "pnlPct": 11.174377224199288
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "GOOGL",
+          "shares": 18,
+          "cost": 139.9,
+          "sector": "Internet",
+          "price": 241.2,
+          "prevClose": 238.8,
+          "currency": "USD",
+          "history": [
+            223.53,
+            224.92,
+            223.24,
+            222.46,
+            223.85,
+            227.84,
+            228.58,
+            223.97,
+            225.16,
+            232.76,
+            231.61,
+            224.98,
+            229.15,
+            236.45,
+            232.71,
+            228.45,
+            233.51,
+            237.47,
+            235.14,
+            233.72,
+            235.41,
+            238.28,
+            238.8,
+            241.2
+          ],
+          "changePct": 1.0050251256281313,
+          "value": 4341.599999999999,
+          "pnl": 1823.3999999999992,
+          "pnlPct": 72.40886347390989
+        },
+        {
+          "symbol": "VWRL.L",
+          "name": "VWRL.L",
+          "shares": 30,
+          "cost": 98.1,
+          "sector": "Global ETF",
+          "price": 131.4,
+          "prevClose": 131.0,
+          "currency": "USD",
+          "history": [
+            122.42,
+            123.22,
+            121.94,
+            122.25,
+            124.08,
+            124.5,
+            123.41,
+            123.88,
+            126.02,
+            125.95,
+            124.31,
+            125.95,
+            128.35,
+            126.45,
+            125.45,
+            129.09,
+            129.63,
+            126.32,
+            128.24,
+            131.96,
+            129.18,
+            127.5,
+            131.0,
+            131.4
+          ],
+          "changePct": 0.305343511450386,
+          "value": 3942.0,
+          "pnl": 999.0,
+          "pnlPct": 33.94495412844037
+        }
+      ],
+      "totalValue": 31984.699999999997,
+      "totalCost": 21868.2,
+      "dayChange": 220.5999999999949,
+      "dayChangePct": 0.6944947283253575,
+      "pnl": 10116.499999999996,
+      "pnlPct": 46.261237779058156,
+      "allocation": [
+        {
+          "symbol": "NVDA",
+          "weight": 0.22285655328954157
+        },
+        {
+          "symbol": "MSFT",
+          "weight": 0.19070368019709427
+        },
+        {
+          "symbol": "AAPL",
+          "weight": 0.18094588975353842
+        },
+        {
+          "symbol": "ASML",
+          "weight": 0.14650754892182827
+        },
+        {
+          "symbol": "GOOGL",
+          "weight": 0.1357399006399935
+        },
+        {
+          "symbol": "VWRL.L",
+          "weight": 0.12324642719800406
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Semiconductors",
+          "weight": 0.36
+        },
+        {
+          "sector": "Software",
+          "weight": 0.2
+        },
+        {
+          "sector": "Hardware",
+          "weight": 0.19
+        },
+        {
+          "sector": "Internet",
+          "weight": 0.14
+        },
+        {
+          "sector": "Global ETF",
+          "weight": 0.11
+        }
+      ],
+      "history": [
+        29748.84,
+        29962.91,
+        29850.8,
+        29948.379999999997,
+        29838.96,
+        29755.59,
+        30118.88,
+        30273.550000000003,
+        30138.640000000003,
+        30425.160000000003,
+        30714.449999999997,
+        30536.53,
+        30632.62,
+        30982.069999999996,
+        30836.800000000003,
+        30730.84,
+        31121.97,
+        31210.89,
+        31066.810000000005,
+        31415.02,
+        31663.300000000003,
+        31454.920000000002,
+        31764.100000000002,
+        31984.699999999997
+      ],
+      "marketState": "REGULAR",
+      "source": "FIXTURE \u00b7 test harness",
+      "fetchedAt": 1790680038627
+    }
+  },
+  "weather": {
+    "status": "ok",
+    "data": {
+      "place": "Lisbon, PT",
+      "tempC": 21.4,
+      "feelsC": 21.0,
+      "humidity": 64,
+      "windKph": 14,
+      "code": 2,
+      "condition": "clouds",
+      "label": "Partly cloudy",
+      "isDay": true,
+      "hourly": [
+        {
+          "t": "2026-09-29T00:00",
+          "tempC": 13.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T01:00",
+          "tempC": 12.7,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T02:00",
+          "tempC": 12.2,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T03:00",
+          "tempC": 12.0,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T04:00",
+          "tempC": 12.2,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T05:00",
+          "tempC": 12.7,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T06:00",
+          "tempC": 13.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T07:00",
+          "tempC": 14.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T08:00",
+          "tempC": 15.7,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T09:00",
+          "tempC": 17.0,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T10:00",
+          "tempC": 18.3,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T11:00",
+          "tempC": 19.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T12:00",
+          "tempC": 20.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T13:00",
+          "tempC": 21.3,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T14:00",
+          "tempC": 21.8,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T15:00",
+          "tempC": 22.0,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T16:00",
+          "tempC": 21.8,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T17:00",
+          "tempC": 21.3,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T18:00",
+          "tempC": 20.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T19:00",
+          "tempC": 19.5,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T20:00",
+          "tempC": 18.3,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T21:00",
+          "tempC": 17.0,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T22:00",
+          "tempC": 15.7,
+          "precip": 10
+        },
+        {
+          "t": "2026-09-29T23:00",
+          "tempC": 14.5,
+          "precip": 10
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-09-29",
+          "maxC": 23.0,
+          "minC": 16.0,
+          "code": 2,
+          "label": "Partly cloudy"
+        },
+        {
+          "date": "2026-09-30",
+          "maxC": 22.5,
+          "minC": 15.7,
+          "code": 1,
+          "label": "Partly cloudy"
+        },
+        {
+          "date": "2026-09-01",
+          "maxC": 22.0,
+          "minC": 15.4,
+          "code": 61,
+          "label": "Rain"
+        },
+        {
+          "date": "2026-09-02",
+          "maxC": 21.5,
+          "minC": 15.1,
+          "code": 3,
+          "label": "Overcast"
+        },
+        {
+          "date": "2026-09-03",
+          "maxC": 21.0,
+          "minC": 14.8,
+          "code": 0,
+          "label": "Clear"
+        }
+      ],
+      "source": "FIXTURE \u00b7 test harness",
+      "fetchedAt": 1790680038627
+    }
+  },
+  "news": {
+    "status": "ok",
+    "data": {
+      "topic": "AI",
+      "articles": [
+        {
+          "id": "0",
+          "title": "Open-weight model tops reasoning benchmark at a tenth of the compute",
+          "url": "https://example.com/0",
+          "site": "arxiv.org",
+          "points": 812,
+          "comments": 270,
+          "at": 1790680038627
+        },
+        {
+          "id": "1",
+          "title": "MCP servers are becoming the USB of agents",
+          "url": "https://example.com/1",
+          "site": "simonwillison.net",
+          "points": 604,
+          "comments": 201,
+          "at": 1790676438627
+        },
+        {
+          "id": "2",
+          "title": "Inside a 100k-GPU training run: what failed and why",
+          "url": "https://example.com/2",
+          "site": "semianalysis.com",
+          "points": 533,
+          "comments": 177,
+          "at": 1790672838627
+        },
+        {
+          "id": "3",
+          "title": "On-device speech models now run in real time on laptops",
+          "url": "https://example.com/3",
+          "site": "github.com",
+          "points": 421,
+          "comments": 140,
+          "at": 1790669238627
+        },
+        {
+          "id": "4",
+          "title": "The case for small, specialised models",
+          "url": "https://example.com/4",
+          "site": "thegradient.pub",
+          "points": 298,
+          "comments": 99,
+          "at": 1790665638627
+        }
+      ],
+      "source": "FIXTURE \u00b7 test harness",
+      "fetchedAt": 1790680038627
+    }
+  },
+  "sports": {
+    "status": "ok",
+    "data": {
+      "league": "3 leagues \u00b7 EPL \u00b7 NBA \u00b7 LaLiga",
+      "events": [
+        {
+          "id": "epl1",
+          "name": "",
+          "home": {
+            "name": "Arsenal",
+            "abbr": "ARS",
+            "score": "2"
+          },
+          "away": {
+            "name": "Chelsea",
+            "abbr": "CHE",
+            "score": "1"
+          },
+          "state": "in",
+          "detail": "67'",
+          "date": "2026-09-29T19:00:00Z",
+          "league": "EPL"
+        },
+        {
+          "id": "n1",
+          "name": "",
+          "home": {
+            "name": "Boston Celtics",
+            "abbr": "BOS",
+            "score": "88"
+          },
+          "away": {
+            "name": "Los Angeles Lakers",
+            "abbr": "LAL",
+            "score": "84"
+          },
+          "state": "in",
+          "detail": "Q3 4:12",
+          "date": "2026-09-29T23:30:00Z",
+          "league": "NBA"
+        },
+        {
+          "id": "n2",
+          "name": "",
+          "home": {
+            "name": "Denver Nuggets",
+            "abbr": "DEN",
+            "score": ""
+          },
+          "away": {
+            "name": "Phoenix Suns",
+            "abbr": "PHX",
+            "score": ""
+          },
+          "state": "pre",
+          "detail": "Tue 21:00",
+          "date": "2026-09-30T02:00:00Z",
+          "league": "NBA"
+        },
+        {
+          "id": "epl3",
+          "name": "",
+          "home": {
+            "name": "Man City",
+            "abbr": "MCI",
+            "score": ""
+          },
+          "away": {
+            "name": "Tottenham",
+            "abbr": "TOT",
+            "score": ""
+          },
+          "state": "pre",
+          "detail": "Sat 17:30",
+          "date": "2026-10-03T16:30:00Z",
+          "league": "EPL"
+        },
+        {
+          "id": "l1",
+          "name": "",
+          "home": {
+            "name": "Real Madrid",
+            "abbr": "RMA",
+            "score": "1"
+          },
+          "away": {
+            "name": "Sevilla",
+            "abbr": "SEV",
+            "score": "0"
+          },
+          "state": "post",
+          "detail": "FT",
+          "date": "2026-09-28T19:00:00Z",
+          "league": "LaLiga"
+        },
+        {
+          "id": "epl2",
+          "name": "",
+          "home": {
+            "name": "Liverpool",
+            "abbr": "LIV",
+            "score": "3"
+          },
+          "away": {
+            "name": "Everton",
+            "abbr": "EVE",
+            "score": "0"
+          },
+          "state": "post",
+          "detail": "FT",
+          "date": "2026-09-28T15:00:00Z",
+          "league": "EPL"
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Arsenal",
+          "abbr": "ARS",
+          "played": 6,
+          "points": 16,
+          "goalDiff": 9
+        },
+        {
+          "rank": 2,
+          "team": "Liverpool",
+          "abbr": "LIV",
+          "played": 6,
+          "points": 15,
+          "goalDiff": 8
+        },
+        {
+          "rank": 3,
+          "team": "Man City",
+          "abbr": "MCI",
+          "played": 6,
+          "points": 13,
+          "goalDiff": 6
+        }
+      ],
+      "source": "FIXTURE \u00b7 test harness",
+      "fetchedAt": 1790680038627,
+      "leagues": [
+        {
+          "id": "soccer/eng.1",
+          "name": "English Premier League",
+          "short": "EPL",
+          "events": [
+            {
+              "id": "epl1",
+              "name": "",
+              "home": {
+                "name": "Arsenal",
+                "abbr": "ARS",
+                "score": "2"
+              },
+              "away": {
+                "name": "Chelsea",
+                "abbr": "CHE",
+                "score": "1"
+              },
+              "state": "in",
+              "detail": "67'",
+              "date": "2026-09-29T19:00:00Z",
+              "league": "EPL"
+            },
+            {
+              "id": "epl2",
+              "name": "",
+              "home": {
+                "name": "Liverpool",
+                "abbr": "LIV",
+                "score": "3"
+              },
+              "away": {
+                "name": "Everton",
+                "abbr": "EVE",
+                "score": "0"
+              },
+              "state": "post",
+              "detail": "FT",
+              "date": "2026-09-28T15:00:00Z",
+              "league": "EPL"
+            },
+            {
+              "id": "epl3",
+              "name": "",
+              "home": {
+                "name": "Man City",
+                "abbr": "MCI",
+                "score": ""
+              },
+              "away": {
+                "name": "Tottenham",
+                "abbr": "TOT",
+                "score": ""
+              },
+              "state": "pre",
+              "detail": "Sat 17:30",
+              "date": "2026-10-03T16:30:00Z",
+              "league": "EPL"
+            }
+          ],
+          "standings": [
+            {
+              "rank": 1,
+              "team": "Arsenal",
+              "abbr": "ARS",
+              "played": 6,
+              "points": 16,
+              "goalDiff": 9
+            },
+            {
+              "rank": 2,
+              "team": "Liverpool",
+              "abbr": "LIV",
+              "played": 6,
+              "points": 15,
+              "goalDiff": 8
+            },
+            {
+              "rank": 3,
+              "team": "Man City",
+              "abbr": "MCI",
+              "played": 6,
+              "points": 13,
+              "goalDiff": 6
+            }
+          ]
+        },
+        {
+          "id": "basketball/nba",
+          "name": "NBA",
+          "short": "NBA",
+          "events": [
+            {
+              "id": "n1",
+              "name": "",
+              "home": {
+                "name": "Boston Celtics",
+                "abbr": "BOS",
+                "score": "88"
+              },
+              "away": {
+                "name": "Los Angeles Lakers",
+                "abbr": "LAL",
+                "score": "84"
+              },
+              "state": "in",
+              "detail": "Q3 4:12",
+              "date": "2026-09-29T23:30:00Z",
+              "league": "NBA"
+            },
+            {
+              "id": "n2",
+              "name": "",
+              "home": {
+                "name": "Denver Nuggets",
+                "abbr": "DEN",
+                "score": ""
+              },
+              "away": {
+                "name": "Phoenix Suns",
+                "abbr": "PHX",
+                "score": ""
+              },
+              "state": "pre",
+              "detail": "Tue 21:00",
+              "date": "2026-09-30T02:00:00Z",
+              "league": "NBA"
+            }
+          ],
+          "standings": [
+            {
+              "rank": 1,
+              "team": "Boston Celtics",
+              "abbr": "BOS",
+              "played": 2,
+              "points": 2,
+              "goalDiff": 0
+            }
+          ]
+        },
+        {
+          "id": "soccer/esp.1",
+          "name": "LaLiga",
+          "short": "LaLiga",
+          "events": [
+            {
+              "id": "l1",
+              "name": "",
+              "home": {
+                "name": "Real Madrid",
+                "abbr": "RMA",
+                "score": "1"
+              },
+              "away": {
+                "name": "Sevilla",
+                "abbr": "SEV",
+                "score": "0"
+              },
+              "state": "post",
+              "detail": "FT",
+              "date": "2026-09-28T19:00:00Z",
+              "league": "LaLiga"
+            }
+          ],
+          "standings": [
+            {
+              "rank": 1,
+              "team": "Real Madrid",
+              "abbr": "RMA",
+              "played": 7,
+              "points": 19,
+              "goalDiff": 12
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "calendar": {
+    "status": "ok",
+    "data": {
+      "calendarName": "Work",
+      "events": [
+        {
+          "id": "0",
+          "title": "Design review",
+          "start": "2026-09-29T12:07:00",
+          "end": "2026-09-29T13:07:00",
+          "allDay": false
+        },
+        {
+          "id": "1",
+          "title": "1:1 with Maya",
+          "start": "2026-09-29T14:07:00",
+          "end": "2026-09-29T15:07:00",
+          "allDay": false
+        },
+        {
+          "id": "2",
+          "title": "Phase 7 demo",
+          "start": "2026-09-29T16:07:00",
+          "end": "2026-09-29T17:07:00",
+          "allDay": false
+        },
+        {
+          "id": "3",
+          "title": "Gym",
+          "start": "2026-09-30T13:07:00",
+          "end": "2026-09-30T14:07:00",
+          "allDay": false
+        },
+        {
+          "id": "4",
+          "title": "Investor update",
+          "start": "2026-09-30T17:07:00",
+          "end": "2026-09-30T18:07:00",
+          "allDay": false
+        }
+      ],
+      "source": "FIXTURE \u00b7 test harness",
+      "fetchedAt": 1790680038627
+    }
+  },
+  "instagram": {
+    "status": "ok",
+    "data": {
+      "api": "instagram-login",
+      "username": "example.account",
+      "followers": 49370,
+      "mediaCount": 212,
+      "followerHistory": [
+        {
+          "date": "2026-09-01",
+          "total": 48290
+        },
+        {
+          "date": "2026-09-02",
+          "total": 48366
+        },
+        {
+          "date": "2026-09-03",
+          "total": 48433
+        },
+        {
+          "date": "2026-09-04",
+          "total": 48490
+        },
+        {
+          "date": "2026-09-05",
+          "total": 48534
+        },
+        {
+          "date": "2026-09-06",
+          "total": 48565
+        },
+        {
+          "date": "2026-09-07",
+          "total": 48583
+        },
+        {
+          "date": "2026-09-08",
+          "total": 48592
+        },
+        {
+          "date": "2026-09-09",
+          "total": 48595
+        },
+        {
+          "date": "2026-09-10",
+          "total": 48597
+        },
+        {
+          "date": "2026-09-11",
+          "total": 48600
+        },
+        {
+          "date": "2026-09-12",
+          "total": 48611
+        },
+        {
+          "date": "2026-09-13",
+          "total": 48631
+        },
+        {
+          "date": "2026-09-14",
+          "total": 48664
+        },
+        {
+          "date": "2026-09-15",
+          "total": 48709
+        },
+        {
+          "date": "2026-09-16",
+          "total": 48768
+        },
+        {
+          "date": "2026-09-17",
+          "total": 48837
+        },
+        {
+          "date": "2026-09-18",
+          "total": 48914
+        },
+        {
+          "date": "2026-09-19",
+          "total": 48995
+        },
+        {
+          "date": "2026-09-20",
+          "total": 49074
+        },
+        {
+          "date": "2026-09-21",
+          "total": 49149
+        },
+        {
+          "date": "2026-09-22",
+          "total": 49216
+        },
+        {
+          "date": "2026-09-23",
+          "total": 49270
+        },
+        {
+          "date": "2026-09-24",
+          "total": 49312
+        },
+        {
+          "date": "2026-09-25",
+          "total": 49341
+        },
+        {
+          "date": "2026-09-26",
+          "total": 49358
+        },
+        {
+          "date": "2026-09-27",
+          "total": 49366
+        },
+        {
+          "date": "2026-09-28",
+          "total": 49368
+        },
+        {
+          "date": "2026-09-29",
+          "total": 49370
+        }
+      ],
+      "reach": [
+        {
+          "date": "2026-09-01",
+          "value": 4000
+        },
+        {
+          "date": "2026-09-02",
+          "value": 4431
+        },
+        {
+          "date": "2026-09-03",
+          "value": 4757
+        },
+        {
+          "date": "2026-09-04",
+          "value": 4897
+        },
+        {
+          "date": "2026-09-05",
+          "value": 4818
+        },
+        {
+          "date": "2026-09-06",
+          "value": 4538
+        },
+        {
+          "date": "2026-09-07",
+          "value": 4127
+        },
+        {
+          "date": "2026-09-08",
+          "value": 3685
+        },
+        {
+          "date": "2026-09-09",
+          "value": 3319
+        },
+        {
+          "date": "2026-09-10",
+          "value": 3121
+        },
+        {
+          "date": "2026-09-11",
+          "value": 3137
+        },
+        {
+          "date": "2026-09-12",
+          "value": 3366
+        },
+        {
+          "date": "2026-09-13",
+          "value": 3749
+        },
+        {
+          "date": "2026-09-14",
+          "value": 4193
+        },
+        {
+          "date": "2026-09-15",
+          "value": 4591
+        },
+        {
+          "date": "2026-09-16",
+          "value": 4844
+        },
+        {
+          "date": "2026-09-17",
+          "value": 4890
+        },
+        {
+          "date": "2026-09-18",
+          "value": 4718
+        },
+        {
+          "date": "2026-09-19",
+          "value": 4370
+        },
+        {
+          "date": "2026-09-20",
+          "value": 3933
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3511
+        },
+        {
+          "date": "2026-09-22",
+          "value": 3209
+        },
+        {
+          "date": "2026-09-23",
+          "value": 3101
+        },
+        {
+          "date": "2026-09-24",
+          "value": 3213
+        },
+        {
+          "date": "2026-09-25",
+          "value": 3518
+        },
+        {
+          "date": "2026-09-26",
+          "value": 3941
+        },
+        {
+          "date": "2026-09-27",
+          "value": 4378
+        },
+        {
+          "date": "2026-09-28",
+          "value": 4723
+        },
+        {
+          "date": "2026-09-29",
+          "value": 4891
+        }
+      ],
+      "reachTotal": 131400,
+      "engagementRate": 0.047,
+      "growth7d": 154,
+      "media": [
+        {
+          "id": "0",
+          "caption": "Reel 0",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x0",
+          "at": "2026-09-29T11:07:00",
+          "likes": 2100,
+          "comments": 90,
+          "engagement": 0.045
+        },
+        {
+          "id": "1",
+          "caption": "Reel 1",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x1",
+          "at": "2026-09-28T11:07:00",
+          "likes": 1960,
+          "comments": 84,
+          "engagement": 0.045
+        },
+        {
+          "id": "2",
+          "caption": "Reel 2",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x2",
+          "at": "2026-09-27T11:07:00",
+          "likes": 1820,
+          "comments": 78,
+          "engagement": 0.045
+        },
+        {
+          "id": "3",
+          "caption": "Reel 3",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x3",
+          "at": "2026-09-26T11:07:00",
+          "likes": 1680,
+          "comments": 72,
+          "engagement": 0.045
+        },
+        {
+          "id": "4",
+          "caption": "Reel 4",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x4",
+          "at": "2026-09-25T11:07:00",
+          "likes": 1540,
+          "comments": 66,
+          "engagement": 0.045
+        },
+        {
+          "id": "5",
+          "caption": "Reel 5",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x5",
+          "at": "2026-09-24T11:07:00",
+          "likes": 1400,
+          "comments": 60,
+          "engagement": 0.045
+        }
+      ],
+      "reels": [
+        {
+          "id": "0",
+          "caption": "Reel 0",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x0",
+          "at": "2026-09-29T11:07:00",
+          "likes": 2100,
+          "comments": 90,
+          "engagement": 0.045
+        },
+        {
+          "id": "1",
+          "caption": "Reel 1",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x1",
+          "at": "2026-09-28T11:07:00",
+          "likes": 1960,
+          "comments": 84,
+          "engagement": 0.045
+        },
+        {
+          "id": "2",
+          "caption": "Reel 2",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x2",
+          "at": "2026-09-27T11:07:00",
+          "likes": 1820,
+          "comments": 78,
+          "engagement": 0.045
+        },
+        {
+          "id": "3",
+          "caption": "Reel 3",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x3",
+          "at": "2026-09-26T11:07:00",
+          "likes": 1680,
+          "comments": 72,
+          "engagement": 0.045
+        },
+        {
+          "id": "4",
+          "caption": "Reel 4",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x4",
+          "at": "2026-09-25T11:07:00",
+          "likes": 1540,
+          "comments": 66,
+          "engagement": 0.045
+        },
+        {
+          "id": "5",
+          "caption": "Reel 5",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x5",
+          "at": "2026-09-24T11:07:00",
+          "likes": 1400,
+          "comments": 60,
+          "engagement": 0.045
+        }
+      ],
+      "top": [
+        {
+          "id": "0",
+          "caption": "Reel 0",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x0",
+          "at": "2026-09-29T11:07:00",
+          "likes": 2100,
+          "comments": 90,
+          "engagement": 0.045
+        },
+        {
+          "id": "1",
+          "caption": "Reel 1",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x1",
+          "at": "2026-09-28T11:07:00",
+          "likes": 1960,
+          "comments": 84,
+          "engagement": 0.045
+        },
+        {
+          "id": "2",
+          "caption": "Reel 2",
+          "type": "VIDEO",
+          "product": "REELS",
+          "permalink": "https://www.instagram.com/reel/x2",
+          "at": "2026-09-27T11:07:00",
+          "likes": 1820,
+          "comments": 78,
+          "engagement": 0.045
+        }
+      ],
+      "destinations": {
+        "profile": "https://www.instagram.com/example.account/",
+        "reels": "https://www.instagram.com/example.account/reels/"
+      },
+      "source": "FIXTURE \u00b7 test harness",
+      "fetchedAt": 1790680038627
+    }
+  },
+  "crypto": {
+    "status": "ok",
+    "data": {
+      "currency": "gbp",
+      "coins": [
+        {
+          "id": "bitcoin",
+          "symbol": "btc",
+          "name": "Bitcoin",
+          "price": 48210.55,
+          "change24h": 2.31,
+          "marketCap": 952000000000,
+          "spark": [
+            46000.0,
+            46355.78,
+            46678.42,
+            46938.44,
+            47113.23,
+            47189.58,
+            47165.13,
+            47048.57,
+            46858.79,
+            46622.69,
+            46372.3,
+            46141.21,
+            45960.88,
+            45857.21,
+            45847.63,
+            45939.22,
+            46127.93,
+            46399.01,
+            46728.65,
+            47086.59,
+            47439.46,
+            47754.43,
+            48002.86,
+            48163.43,
+            48224.5,
+            48185.36,
+            48056.36,
+            47857.72,
+            47617.35,
+            47367.72,
+            47142.36,
+            46972.09,
+            46881.7,
+            46887.15,
+            46993.89,
+            47196.18,
+            47477.78,
+            47813.73,
+            48173.07,
+            48522.27,
+            48828.91,
+            49065.27
+          ]
+        },
+        {
+          "id": "ethereum",
+          "symbol": "eth",
+          "name": "Ethereum",
+          "price": 2604.12,
+          "change24h": -1.18,
+          "marketCap": 313000000000,
+          "spark": [
+            2650.0,
+            2666.08,
+            2680.25,
+            2690.81,
+            2696.47,
+            2696.45,
+            2690.62,
+            2679.49,
+            2664.14,
+            2646.12,
+            2627.28,
+            2609.55,
+            2594.75,
+            2584.36,
+            2579.39,
+            2580.25,
+            2586.7,
+            2597.9,
+            2612.48,
+            2628.68,
+            2644.59,
+            2658.32,
+            2668.22,
+            2673.05,
+            2672.15,
+            2665.48,
+            2653.63,
+            2637.77,
+            2619.51,
+            2600.71,
+            2583.31,
+            2569.08,
+            2559.46,
+            2555.36,
+            2557.09,
+            2564.33,
+            2576.13,
+            2591.07,
+            2607.35,
+            2623.05,
+            2636.3,
+            2645.5
+          ]
+        },
+        {
+          "id": "solana",
+          "symbol": "sol",
+          "name": "Solana",
+          "price": 141.9,
+          "change24h": 4.02,
+          "marketCap": 66000000000,
+          "spark": [
+            130.0,
+            131.1,
+            132.1,
+            132.93,
+            133.52,
+            133.83,
+            133.85,
+            133.61,
+            133.17,
+            132.6,
+            131.98,
+            131.42,
+            131.0,
+            130.8,
+            130.87,
+            131.22,
+            131.85,
+            132.71,
+            133.73,
+            134.84,
+            135.93,
+            136.91,
+            137.7,
+            138.25,
+            138.52,
+            138.5,
+            138.23,
+            137.76,
+            137.17,
+            136.56,
+            136.01,
+            135.63,
+            135.46,
+            135.57,
+            135.97,
+            136.63,
+            137.52,
+            138.56,
+            139.67,
+            140.75,
+            141.71,
+            142.47
+          ]
+        }
+      ],
+      "source": "Data provided by CoinGecko",
+      "fetchedAt": 1790774222959
+    }
+  },
+  "email": {
+    "status": "ok",
+    "data": {
+      "address": "you@gmail.com",
+      "unread": 3,
+      "total": 214,
+      "webUrl": "https://mail.google.com/",
+      "messages": [
+        {
+          "id": "5",
+          "from": "Jordan Reid",
+          "subject": "Launch plan \u2014 final tweaks",
+          "at": 1790773982959,
+          "unread": true
+        },
+        {
+          "id": "4",
+          "from": "Studio Hosting",
+          "subject": "Your site is live",
+          "at": 1790771942959,
+          "unread": true
+        },
+        {
+          "id": "3",
+          "from": "Sam Patel",
+          "subject": "Re: Friday",
+          "at": 1790767022959,
+          "unread": true
+        },
+        {
+          "id": "2",
+          "from": "GitHub",
+          "subject": "[divina] Build passed",
+          "at": 1790756222959,
+          "unread": false
+        },
+        {
+          "id": "1",
+          "from": "Alex Morgan",
+          "subject": "Photos from the weekend",
+          "at": 1790680622959,
+          "unread": false
+        }
+      ],
+      "source": "IMAP \u00b7 imap.gmail.com \u00b7 read-only",
+      "fetchedAt": 1790774222959
+    }
+  }
+}

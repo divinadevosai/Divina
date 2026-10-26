@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy — Divina</title>
+    <meta name="description" content="How Divina handles your data: what stays on your device, what goes to the AI company you choose, and your rights under UK, EU and US law." />
+    <link rel="canonical" href="https://divinaos.site/privacy.html" />
+    <meta name="theme-color" content="#05070d" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="Divina home"><span class="dot"></span>DIVINA</a>
+    </header>
+    <main class="page">
+      <p class="eyebrow">Privacy</p>
+      <h1 class="small">Privacy policy</h1>
+      <p>Last updated: 26 October 2026 · See also our <a href="cookies.html">Cookie policy</a> and <a href="terms.html">Terms of Use</a>.</p>
+
+      <h2>The short version</h2>
+      <ul>
+        <li>Divina has <strong>no accounts, no analytics, no ads and no tracking</strong>, and sets <strong>no cookies</strong>.</li>
+        <li>What you do in Divina stays <strong>on your device</strong>. Anything personal is kept there encrypted. We never receive it.</li>
+        <li>When you use the AI or a natural voice, your request goes <strong>straight from your device to the company you picked</strong>, with your own API key.</li>
+        <li>We hold <strong>no personal data about you</strong>. Divina is free and open source: there is no shop, no account, no waitlist and no order data.</li>
+        <li>We never sell or share your personal information, and never use it for advertising.</li>
+      </ul>
+
+      <h2>Who we are</h2>
+      <p>Divina is made by Sweeney Creative, the data controller for this website. Contact us about anything in this policy at <a href="mailto:dev@divinaos.site">dev@divinaos.site</a>.</p>
+
+      <h2>This website and downloads</h2>
+      <ul>
+        <li><strong>The website</strong> has no forms, no sign-up and no analytics. Our web host keeps standard server logs (such as IP addresses) for a short time to keep the site secure. That’s our legitimate interest in running a safe website. The host may store them in the United States, with the safeguards UK and EU law require (standard contractual clauses and the UK addendum).</li>
+        <li><strong>Downloads</strong> of the Windows app come from the project’s releases on GitHub, which handles the download under <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">its own privacy statement</a>. We only see how many times each file was downloaded.</li>
+      </ul>
+      <p>The website sets no cookies, stores nothing on your device and loads nothing from other companies. See the <a href="cookies.html">Cookie policy</a>.</p>
+
+      <h2>Live scores and stock prices</h2>
+      <ul>
+        <li>If you switch them on in Settings, the sports and stocks cards fetch data <strong>straight from free public feeds</strong> — ESPN for scores, Yahoo Finance for prices — from your own device. The request carries the leagues you follow and the <strong>ticker symbols</strong> in your portfolio, never how many shares you hold or what they’re worth. These feeds are run by those companies under their own terms; nothing goes to us, and there is no Divina server in between.</li>
+      </ul>
+
+      <h2>Using Divina: the browser version, the new-tab extension, the iPhone app and the Windows and Mac apps</h2>
+      <p>All of them work the same way. There is no Divina server behind them, so <strong>we never receive what you do in them</strong>.</p>
+      <ul>
+        <li><strong>On your device:</strong> your settings and API keys, notes, agents, memory, routines, worlds, timers and any calendar file you add. Keys and personal items are encrypted, with a key that stays locked inside your device (your browser, your iPhone, your Windows account, or your Mac’s Keychain). You can see the list, and delete all of it, in Settings → Privacy &amp; cookies.</li>
+        <li><strong>The AI you pick</strong> (Google Gemini, Anthropic Claude or OpenAI) receives your questions, a short summary of your cards, what you asked Divina to remember, and an agent’s instructions if you’re talking to one, sent directly with your own key. If you ask “what’s on my screen?” (not on iPhone), Divina asks first, then sends one smaller picture of your screen for that one question. The live translator sends only the lines you speak. That company handles it under its own terms and privacy policy, as your provider. OpenAI requests are sent with storage turned off.</li>
+        <li><strong>The natural voice you pick</strong> (Google Gemini, OpenAI or ElevenLabs) receives the text of Divina’s replies, to turn into speech. The voices are AI-generated, not a real person.</li>
+        <li><strong>Speech recognition:</strong> when the microphone is on, your browser’s speech service (Google’s for Chrome, Microsoft’s for Edge) or, on iPhone, Apple’s, turns what you say into text. Apple does this on the phone where it can.</li>
+        <li><strong>Weather:</strong> MET Norway receives your location rounded to about 1 km if you allow it, or OpenStreetMap receives the city name you type.</li>
+        <li><strong>News:</strong> Hacker News via Algolia receives your news topic.</li>
+        <li><strong>Crypto:</strong> CoinGecko receives your coin list, with your own CoinGecko key, if you use that card.</li>
+        <li><strong>Email (Windows and Mac apps only):</strong> if you connect it, Divina reads senders, subjects, dates and read status over an encrypted connection straight to your email provider, with an app password you create. It never changes anything. Only the number of unread emails and the latest sender’s name go into the AI summary.</li>
+        <li><strong>Phone calls (Windows and Mac apps only):</strong> if you set them up with your own Twilio account, Twilio receives your phone number and the short message Divina reads out, and handles it under its own terms. Divina only ever rings the one number you save, never anyone else.</li>
+        <li><strong>Camera:</strong> hand tracking runs on your device. Video is never saved or uploaded.</li>
+        <li><strong>Backups</strong> are sealed with a passphrase you choose and saved where you put them. We can’t open them.</li>
+        <li><strong>Sharing a card</strong> makes a picture on your device. Nothing is sent unless you share or save it.</li>
+        <li><strong>New-tab extension (Chrome and Edge):</strong> it works like the browser version. What you type in its search box goes to your browser’s own search engine, the same as typing in the address bar, and Divina doesn’t keep it. It doesn’t ask for your location: weather uses the city you type. Removing the extension removes everything it stored.</li>
+        <li><strong>iPhone app:</strong> Apple shares with us only what it shares with every developer, such as sales figures, and crash reports if you’ve agreed to share them. Purchases are handled by Apple.</li>
+      </ul>
+      <p>Those companies are independent of us. Divina connects to them because you asked it to, and they handle what they receive under their own terms. Many of them are in the United States.</p>
+
+      <h2>Your rights</h2>
+      <p>Wherever you live, you can ask us to tell you what we hold about you, correct it, delete it or send you a copy, and you can withdraw consent or object at any time. Email us and we’ll reply within one month. For what’s on your device, you’re in control: Settings → Privacy &amp; cookies → Delete everything removes it all at once, and Backup gives you a copy. We make no automated decisions about you.</p>
+      <p>If you’re in the UK or EU and unhappy with how we handle your data, you can complain to your data protection authority. In the UK that’s the Information Commissioner’s Office (<a href="https://ico.org.uk">ico.org.uk</a>).</p>
+
+      <h2>If you’re in the United States</h2>
+      <ul>
+        <li>We do not sell or share personal information, or use it for targeted advertising, so there is nothing to opt out of. We honour Global Privacy Control signals all the same.</li>
+        <li><strong>Do Not Track:</strong> Divina doesn’t track you across sites or over time, so it works the same whether or not your browser sends a Do Not Track signal.</li>
+        <li>You can ask to know, correct or delete your information, and we won’t treat you differently for asking.</li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>Divina and this website are for adults (18+), and not directed at children. We don’t knowingly collect data from anyone under 18. If you think we have, email us and we’ll delete it.</p>
+
+      <h2>Artificial intelligence</h2>
+      <p>Divina is an AI assistant: its replies are generated by the AI company you pick and can be wrong, and its natural voices are AI-generated. Divina says so when you first use it.</p>
+
+      <h2>Security</h2>
+      <p>Keys and personal items are encrypted on your device (AES-256-GCM). Keys only ever go to their own company. The Windows app only answers its own window on your own computer. No system is perfectly secure: keep your device locked, and revoke a key with its company if you think it has been exposed.</p>
+
+      <h2>Changes</h2>
+      <p>If we change this policy, we’ll update the date at the top. Every change is also visible in the project’s public source history.</p>
+
+      <p><a href="index.html">← Back to Divina</a></p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cookies — Divina</title>
+    <meta name="description" content="The cookies and on-device storage Divina uses, and how to choose or delete them." />
+    <link rel="canonical" href="https://divinaos.site/cookies.html" />
+    <meta name="theme-color" content="#05070d" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="Divina home"><span class="dot"></span>DIVINA</a>
+    </header>
+    <main class="page">
+      <p class="eyebrow">Cookies</p>
+      <h1 class="small">Cookie policy</h1>
+      <p>Last updated: 17 October 2026 · See also our <a href="privacy.html">Privacy policy</a>.</p>
+
+      <h2>No cookies, no tracking</h2>
+      <p>Divina sets <strong>no cookies</strong>, and uses no analytics, advertising, tracking pixels or social-media widgets, on this website or in any version of the app. Nothing is loaded from other companies, so they can’t set any either.</p>
+
+      <h2>This website</h2>
+      <p>The website stores nothing on your device and has no forms or sign-ups.</p>
+
+      <h2>The Divina app (browser, iPhone and Windows)</h2>
+      <p>To work, Divina keeps some things in your device’s own storage (browser storage, not cookies). Nothing in it is sent to us. On your first visit Divina asks whether it may also remember your <strong>preferences</strong>. You can change your answer, or delete everything, at any time in <strong>Settings → Privacy &amp; cookies</strong>.</p>
+      <ul>
+        <li><strong>Essential, always on</strong> (the service you asked for). They stay until you delete them:
+          <ul>
+            <li><code>divina.settings.v1</code>: your settings and API keys (keys encrypted)</li>
+            <li><code>divina-vault</code>: the encryption key that locks your keys and personal items, held so it can’t be read out</li>
+            <li><code>divina.notes.v1</code>, <code>divina.agents.v1</code>, <code>divina.memory.v1</code>, <code>divina.routines.v1</code>, <code>divina.worlds.v1</code>: what you asked Divina to keep (encrypted)</li>
+            <li><code>divina.calendar.v1</code>, <code>divina.timers</code>: a calendar file and timers, only if you add them</li>
+            <li><code>divina.cookies</code>: your answer to the question above, so Divina doesn’t ask again</li>
+            <li><code>divina.flat</code>: switches to the simple view after a display problem. Cleared when you close the tab.</li>
+          </ul>
+        </li>
+        <li><strong>Preferences, only if you allow them</strong> (otherwise kept just until you close the tab):
+          <ul>
+            <li><code>divina.prefs</code>: language, voice and display preferences</li>
+            <li><code>divina.tour.done</code>: that you’ve seen the welcome tour (in the new-tab extension this one is essential: every new tab is a new visit, so without it the tour would open on every tab)</li>
+            <li><code>divina.hands</code>: that you left hand tracking on</li>
+            <li><code>divina.geo.*</code>: the map position of a city you typed, so it isn’t looked up again</li>
+          </ul>
+        </li>
+      </ul>
+      <p>The Windows app keeps your settings and personal items in its own encrypted files on your computer (in your user folder), locked by Windows to your account, and a short startup log (replaced each time Divina starts). Settings → Privacy &amp; cookies → Delete everything removes your settings and personal items.</p>
+
+      <h2>Removing it all</h2>
+      <p>Use <strong>Settings → Privacy &amp; cookies → Delete everything</strong>, or clear this site’s data in your browser’s settings. On iPhone, deleting the app removes everything, and removing the new-tab extension removes everything it stored.</p>
+
+      <p><a href="index.html">← Back to Divina</a></p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "stillness": {
+    "ms": 5000,
+    "frames": 28,
+    "motion": 0,
+    "ringAngleDrift": 0,
+    "cameraPositionDrift": 0,
+    "cameraRotationDrift": 0
+  },
+  "goldCentred": {
+    "gold": 1,
+    "warn": 0
+  },
+  "warnedCardAtCentre": {
+    "module": "stocks",
+    "gold": 0,
+    "warn": 1,
+    "front": 1
+  },
+  "phase": "HUMANOID_ACTIVE",
+  "figureStill": {
+    "samples": 40,
+    "changed": 0,
+    "jaw": 0,
+    "mouth": 0,
+    "breath": 0
+  },
+  "mouth": {
+    "silentBefore": 0,
+    "steps": [
+      0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "maxJawRad": 0.12,
+    "closedAfter": 0
+  },
+  "panel": {
+    "found": true,
+    "x": 819,
+    "y": 112,
+    "maxDeltaPx": 0
+  },
+  "rotateWhileEmbodied": {
+    "before": 1,
+    "after": 1
+  },
+  "returning": "RETURNING",
+  "backToNormal": "NORMAL",
+  "pageErrors": []
+}

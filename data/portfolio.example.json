@@ -1,0 +1,11 @@
+{
+  "_comment": "Example holdings. Copy to data/portfolio.json and replace with your own. cost = average cost per share.",
+  "holdings": [
+    { "symbol": "NVDA", "shares": 40, "cost": 96.4, "sector": "Semiconductors" },
+    { "symbol": "AAPL", "shares": 25, "cost": 171.2, "sector": "Hardware" },
+    { "symbol": "MSFT", "shares": 12, "cost": 338.0, "sector": "Software" },
+    { "symbol": "ASML", "shares": 6, "cost": 702.5, "sector": "Semiconductors" },
+    { "symbol": "GOOGL", "shares": 18, "cost": 139.9, "sector": "Internet" },
+    { "symbol": "VWRL.L", "shares": 30, "cost": 98.1, "sector": "Global ETF" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "divina",
+      "name": "Divina",
+      "tagline": "A spatial operating system in a browser tab",
+      "description": "Holographic module ring driven by hand tracking, a streaming voice assistant, a guarded macOS desktop bridge, filmic world grades, and a particle journey into a digital human.",
+      "status": "Phase 7 · The Human Form",
+      "links": [{ "label": "Local", "url": "http://localhost:3000" }],
+      "media": [],
+      "prompts": [
+        { "at": "Phase 1", "text": "Foundation, spatial interface and hand tracking." },
+        { "at": "Phase 2", "text": "AI brain, voice and command engine." },
+        { "at": "Phase 3", "text": "Personal knowledge engine — every module real." },
+        { "at": "Phase 4", "text": "Environments, cinematic transitions, two-hand gestures." },
+        { "at": "Phase 5", "text": "macOS desktop bridge, ⌘K launcher, Instagram telemetry." },
+        { "at": "Phase 6", "text": "Measured stillness, master-clock presentation, filmic grade, earned gold." },
+        { "at": "Phase 7", "text": "The human form — one particle buffer, one clock." }
+      ]
+    }
+  ]
+}
