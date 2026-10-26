@@ -1,10 +1,13 @@
-# Builds Divina when a version tag (v1.2.3) is pushed and attaches the files to
-# the GitHub release. See docs/RELEASE.md.
+# Builds Divina and publishes a GitHub release with the files attached, either
+# when a version tag (v1.2.3) is pushed, or from Actions → Release → Run
+# workflow, which tags the current commit with package.json's version.
+# See docs/RELEASE.md.
 name: Release
 
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -27,11 +30,14 @@ jobs:
       - run: npm test
       - run: npm run typecheck
 
-      - name: The tag matches package.json
+      - name: Version from package.json
         run: |
           v="$(node -p "require('./package.json').version")"
-          test "v$v" = "$GITHUB_REF_NAME" || { echo "tag $GITHUB_REF_NAME but package.json says $v"; exit 1; }
+          if [ "$GITHUB_REF_TYPE" = tag ]; then
+            test "v$v" = "$GITHUB_REF_NAME" || { echo "tag $GITHUB_REF_NAME but package.json says $v"; exit 1; }
+          fi
           echo "VERSION=$v" >> "$GITHUB_ENV"
+          echo "TAG=v$v" >> "$GITHUB_ENV"
 
       - name: Windows installers
         env:
@@ -52,7 +58,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" release/* \
+          gh release create "$TAG" release/* --target "$GITHUB_SHA" \
             --title "Divina $VERSION" \
             --notes "Divina $VERSION, free and open source (AGPL-3.0).
 

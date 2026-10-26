@@ -6,12 +6,9 @@ builds everything and attaches it to the GitHub release.
 ## Cut a release
 
 1. Bump `version` in `package.json` and commit.
-2. Tag and push:
-
-   ```bash
-   git tag v1.0.1
-   git push origin v1.0.1
-   ```
+2. Either push a tag (`git tag v1.0.1 && git push origin v1.0.1`), or on
+   GitHub open **Actions → Release → Run workflow**, which tags the current
+   commit with the version from `package.json`.
 
 3. `.github/workflows/release.yml` runs the tests, then builds and attaches:
 
