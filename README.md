@@ -31,6 +31,15 @@ Stocks read `data/portfolio.json` (falls back to `data/portfolio.example.json`, 
 - [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md): licences of everything Divina uses, and which free data sources must be replaced or licensed before selling Divina.
 - [LICENSE](LICENSE): free software under the GNU Affero General Public License v3 (or later). You can use, study, change and share Divina; if you run a modified version as a network service, you must offer its users your source. The Divina name and logos are not covered — a fork uses its own. You bring your own AI key (Gemini, Claude or OpenAI) and pay that company directly for what you use.
 
+## Code signing policy
+
+Windows releases are built from this repository by GitHub Actions (`.github/workflows/release.yml`) and attached, with SHA-256 checksums, to [GitHub Releases](https://github.com/divinadevosai/Divina/releases). Free code signing is to be provided by [SignPath.io](https://about.signpath.io), with a certificate from the [SignPath Foundation](https://signpath.org) (pending approval).
+
+- Committers and reviewers: [the repository's maintainers](https://github.com/divinadevosai)
+- Approver of each release: [divinadevosai](https://github.com/divinadevosai)
+
+Divina sends nothing to us: what leaves your computer, and to whom, is listed in [PRIVACY.md](PRIVACY.md).
+
 ## Settings (no files to edit)
 
 Click **⚙ settings** at the bottom of the screen, press ⌘K / Ctrl+K and type "settings", or say "Divina, open settings". Everything applies immediately:
